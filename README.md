@@ -9,5 +9,5 @@ Raw Sleep data is post-processed with *_sleepduringabsONLY.ipynb to calculate sl
 Raw Sleep data is post-processed with *_sleepreboundZT0-6.ipynb to calculate sleep rebound (sleep amount Day3 ZT0-6 minus Day2 ZT0-6) 
 
 **Analyzing Arousal Threshold within Genotype following Stimulus**
-Beam counts per 1 minute for each individual fly are reported in .txt files recorded by monitor and channel using DAMSystem311 (Trikinetics)
+Beam counts per 1 minute for each individual fly are reported in .txt files recorded by monitor and channel using DAMSystem311 (Trikinetics https://trikinetics.com/)
 Beam counts is post-processed with ArousalThreshold_withinGenotype_v2.ipynb to calculate percentage of flies "responding" to stimulus with beam crosses in interval following stimulus for asleep flies and awake flies.  Asleep flies were defined as flies not moving for the 5 minutes (no beam crosses detected) prior to stimulus, whereas awake flies were those observed to be moving.  Aroused flies were identified as flies moving within the 3 min interval following the stimulus.
