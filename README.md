@@ -4,7 +4,7 @@ Additional FlyZZZs post-processing scripts used in Ho et al. 2022
 
 **Analyzing Sleep During Activation and Sleep Rebound (ZT0-6)**  
 .xlsx files are data output from FlyZZZs (https://github.com/marknwulab/Blum-et-al.-2020/blob/master/Fly%20ZZZs.zip) run using MATLAB  
-Raw Sleep Data is saved as .txt file and input into  
+Raw Sleep Data is saved as .txt file and input into the following .ipynb
 Raw Sleep data is post-processed with *_sleepduringabsONLY.ipynb to calculate sleep during activation Day 2.5-3 (Day ZT12-24)  
 Raw Sleep data is post-processed with *_sleepreboundZT0-6.ipynb to calculate sleep rebound (sleep amount Day3 ZT0-6 minus Day2 ZT0-6)   
 
